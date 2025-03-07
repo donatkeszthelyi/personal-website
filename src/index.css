@@ -70,6 +70,13 @@ html {
   );
 }
 
+.triangle-mirrored {
+  clip-path: path(
+    'M -126 9 Q -130 0 -120 0 Q 0 0 120 0 Q 130 0 126 9 L 4 208 Q 0 214 -4 208 Z'
+  );
+  transform: scale(-1, 1);
+}
+
 .trapezoid {
   clip-path: path(
     'M 0 219 Q 15 210 19 210 V 9 H 235 V 210 Q 256 210 252 219 L 130 418 Q 126 424 122 418 Z'
@@ -121,4 +128,10 @@ section .wave {
   100% {
     transform: translate(-50%, -75%) rotate(360deg);
   }
+}
+
+.skills-container-mobile {
+  overflow: hidden !important;
+  width: 80vw !important;
+  margin-top: 10vh !important;
 }

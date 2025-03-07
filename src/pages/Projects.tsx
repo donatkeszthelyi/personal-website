@@ -6,10 +6,10 @@ function Projects() {
   const isSmallScreen = useMediaQuery('(max-width:1100px)');
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden bg-main-gray">
       <BackgroundGray />
       {isSmallScreen ? (
-        <div className="overflow-hidden -z-10 w-[80vw] mt-10 m-auto flex flex-col">
+        <div className="overflow-hidden -z-10 mt-24 w-[80vw] m-auto flex flex-col">
           <section className="overflow-hidden space-grotesk text-white text-justify mx-auto pb-2">
             <h1 className="text-5xl text-main-green">My Projects</h1>
           </section>
@@ -24,7 +24,9 @@ function Projects() {
               >
                 <div className="w-[280px] h-[158px] rounded-md overflow-hidden m-auto">
                   <img
-                    src="react-music-player-screenshot.png"
+                    src={`${
+                      import.meta.env.BASE_URL
+                    }react-music-player-screenshot.png`}
                     alt="React Music Player"
                     className="blur-sm grayscale group-hover:filter-none"
                   />
@@ -52,7 +54,9 @@ function Projects() {
                 </h2>
                 <div className="w-[38.5vw] h-[20vw] rounded-md overflow-hidden">
                   <img
-                    src="react-music-player-screenshot.png"
+                    src={`${
+                      import.meta.env.BASE_URL
+                    }react-music-player-screenshot.png`}
                     alt="React Music Player"
                     className="blur-sm grayscale group-hover:filter-none"
                   />

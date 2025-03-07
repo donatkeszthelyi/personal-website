@@ -8,7 +8,7 @@ export const SkillsIcons = () => {
   return (
     <div>
       {isSmallScreen ? (
-        <div className="icons-container absolute scale-65 w-[490px] left-[50%] translate-x-[-50%]">
+        <div className="icons-container-mobile">
           <div className="absolute items-center justify-center">
             <Button variant="ghost" className="hover:!cursor-default group">
               <div className="hexagon relative m-auto" />

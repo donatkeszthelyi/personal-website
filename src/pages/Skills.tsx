@@ -7,7 +7,7 @@ function Skills() {
   return (
     <div className="overflow-hidden bg-main-gray pb-[100px]">
       {isSmallScreen ? (
-        <div className="overflow-hidden -z-10 w-[80vw] m-auto mt-10 grid grid-rows-2">
+        <div className="overflow-hidden -z-10 w-[80vw] m-auto mt-24 grid grid-rows-2">
           <section className="overflow-hidden space-grotesk text-white text-justify ">
             <h1 className="text-5xl text-main-green text-center mb-4">
               My Skills
@@ -32,7 +32,7 @@ function Skills() {
               with R for data analysis.
             </text>
           </section>
-          <section className="overflow-hidden w-[80vw] mt-[10vh]">
+          <section className="skills-container-mobile">
             <SkillsIcons />
           </section>
         </div>

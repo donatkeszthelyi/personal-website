@@ -157,6 +157,11 @@ function App() {
               </motion.div>
             )}
           </div>
+          <div className="fixed wave z-10 top-[-80vh] left-[50%]">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <Element name="home" id="home" className="h-screen">
             <Home />
           </Element>
@@ -188,6 +193,17 @@ function App() {
               </button>
             ))}
           </nav>
+          <div className="fixed wave z-10 bottom-[-2200px] left-[50%]">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div className="fixed wave z-10 top-[-700px] left-[50%]">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <Element name="home" id="home" className="h-screen">
             <Home />
           </Element>

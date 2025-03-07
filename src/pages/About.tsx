@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="overflow-hidden bg-main-gray">
       {isSmallScreen ? (
-        <div className="overflow-hidden -z-10 w-[80vw] m-auto mt-10 items-center justify-center grid grid-rows-2">
+        <div className="overflow-hidden -z-10 w-[80vw] m-auto mt-24 items-center justify-center grid grid-rows-2">
           <section className="overflow-hidden space-grotesk text-white text-justify">
             <h1 className="text-5xl text-main-green text-center mb-4">
               About Me
@@ -33,17 +33,17 @@ function About() {
           </section>
           <section className="justify-center flex relative pb-[420px] pt-[20px]">
             <div className="absolute triangle bg-main-green w-[200px] h-[400px] ml-[204px] mt-[120px]"></div>
-            <div className="absolute triangle bg-main-green w-[200px] h-[400px] ml-[-197px] mt-[120px] scale-x-[-1]"></div>
+            <div className="absolute triangle-mirrored bg-main-green w-[200px] h-[400px] ml-[-197px] mt-[120px]"></div>
 
             <div className="absolute trapezoid bg-transparent w-[250px] h-[850px] mt-[-90px]">
               <Button variant="ghost" className="hover:!cursor-default group">
                 <img
-                  src="me-bw.png"
+                  src={`${import.meta.env.BASE_URL}me-bw.png`}
                   alt="me"
                   className="relative top-[14.5rem] scale-220 group-hover:hidden"
                 />
                 <img
-                  src="me-color.png"
+                  src={`${import.meta.env.BASE_URL}me-color.png`}
                   alt="me"
                   className="relative top-[14.5rem] scale-220"
                 />
@@ -79,17 +79,17 @@ function About() {
               className="absolute triangle bg-main-green w-[200px] h-[400px] top-[88rem] ml-[320px] scale-150"
               overflow-hidden
             ></div>
-            <div className="absolute triangle bg-main-green w-[200px] h-[400px] top-[88rem] ml-[21px] scale-x-[-1.5] scale-150 overflow-hidden"></div>
+            <div className="absolute triangle-mirrored bg-main-green w-[200px] h-[400px] top-[88rem] ml-[21px] scale-150 overflow-hidden"></div>
 
             <div className="absolute trapezoid bg-transparent w-[250px] h-[850px] top-[75.29rem] ml-[144px] scale-150 overflow-hidden">
               <Button variant="ghost" className="hover:!cursor-default group">
                 <img
-                  src="me-bw.png"
+                  src={`${import.meta.env.BASE_URL}me-bw.png`}
                   alt="me"
                   className="relative top-[14.5rem] scale-220 overflow-hidden group-hover:hidden"
                 />
                 <img
-                  src="me-color.png"
+                  src={`${import.meta.env.BASE_URL}me-color.png`}
                   alt="me"
                   className="relative top-[14.5rem] scale-220 overflow-hidden"
                 />

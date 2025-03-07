@@ -6,11 +6,11 @@ function Contact() {
   const isSmallScreen = useMediaQuery('(max-width:1100px)');
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden bg-main-gray">
       <BackgroundGray />
       {isSmallScreen ? (
         <div>
-          <h1 className="text-5xl text-main-green text-center mb-4 space-grotesk mt-10">
+          <h1 className="text-5xl text-main-green text-center mb-4 space-grotesk mt-24">
             Contact Me
           </h1>
           <div className="flex overflow-hidden -z-10 h-screen w-full items-center justify-center mt-[-16rem] flex-col">

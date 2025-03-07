@@ -8,7 +8,7 @@ function Home() {
   const isSmallScreen = useMediaQuery('(max-width:1100px)');
 
   return (
-    <div className="overflow-hidden items-center justify-center w-full">
+    <div className="overflow-hidden items-center justify-center w-full bg-main-gray">
       <BackgroundGray />
       {isSmallScreen ? (
         <div>
