@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.line-1 {
+  position: relative;
+  width: 48em;
+  border-right: 2px solid #008170;
+  font-size: 1.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: x-large;
+  text-align: center;
+}
+
+.line-1-mobile {
+  position: relative;
+  width: 4em;
+  border-right: 2px solid #008170;
+  font-size: 1.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: x-large;
+}
+
+.source-code-pro {
+  font-family: 'Source Code Pro', monospace;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
+.anim-typewriter {
+  animation: typewriter 4s steps(48) 1s 1 normal both,
+    blinkTextCursor 500ms steps(48) infinite normal;
+}
+
+.anim-typewriter-mobile {
+  animation: typewriter-mobile 2s steps(28) 1s 1 normal both,
+    blinkTextCursor 500ms steps(28) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 29em;
+  }
+}
+
+@keyframes typewriter-mobile {
+  from {
+    width: 0;
+  }
+  to {
+    width: 13em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  50% {
+    border-right-color: transparent;
+  }
+}
