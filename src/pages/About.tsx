@@ -38,12 +38,12 @@ function About() {
             <div className="absolute trapezoid bg-transparent w-[250px] h-[850px] mt-[-90px]">
               <Button variant="ghost" className="hover:!cursor-default group">
                 <img
-                  src="/me-bw.png"
+                  src="me-bw.png"
                   alt="me"
                   className="relative top-[14.5rem] scale-220 group-hover:hidden"
                 />
                 <img
-                  src="/me-color.png"
+                  src="me-color.png"
                   alt="me"
                   className="relative top-[14.5rem] scale-220"
                 />
@@ -84,12 +84,12 @@ function About() {
             <div className="absolute trapezoid bg-transparent w-[250px] h-[850px] top-[75.29rem] ml-[144px] scale-150 overflow-hidden">
               <Button variant="ghost" className="hover:!cursor-default group">
                 <img
-                  src="/me-bw.png"
+                  src="me-bw.png"
                   alt="me"
                   className="relative top-[14.5rem] scale-220 overflow-hidden group-hover:hidden"
                 />
                 <img
-                  src="/me-color.png"
+                  src="me-color.png"
                   alt="me"
                   className="relative top-[14.5rem] scale-220 overflow-hidden"
                 />

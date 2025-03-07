@@ -24,7 +24,7 @@ function Projects() {
               >
                 <div className="w-[280px] h-[158px] rounded-md overflow-hidden m-auto">
                   <img
-                    src="/react-music-player-screenshot.png"
+                    src="react-music-player-screenshot.png"
                     alt="React Music Player"
                     className="blur-sm grayscale group-hover:filter-none"
                   />
@@ -52,7 +52,7 @@ function Projects() {
                 </h2>
                 <div className="w-[38.5vw] h-[20vw] rounded-md overflow-hidden">
                   <img
-                    src="/react-music-player-screenshot.png"
+                    src="react-music-player-screenshot.png"
                     alt="React Music Player"
                     className="blur-sm grayscale group-hover:filter-none"
                   />

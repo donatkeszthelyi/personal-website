@@ -114,7 +114,7 @@ function App() {
               initial="hidden"
               animate={isMenuOpen ? 'visible' : 'hidden'}
               variants={rollOutAnimation}
-              className="fixed left-0 w-full bg-gray-900 text-white p-4 flex flex-col items-center gap-4 z-40 overflow-hidden pt-10"
+              className="fixed left-0 w-full bg-main-gray text-white p-4 flex flex-col items-center gap-4 z-40 overflow-hidden pt-10"
             >
               {sections.map((section) => (
                 <button
@@ -149,7 +149,7 @@ function App() {
                     right: '0',
                     bottom: '0',
                     zIndex: 999,
-                    backdropFilter: 'blur(3px)',
+                    backdropFilter: 'blur(6px)',
                     backgroundColor: 'rgba(0, 0, 0, 0.4)',
                     WebkitBackdropFilter: 'blur(3px)',
                   }}
